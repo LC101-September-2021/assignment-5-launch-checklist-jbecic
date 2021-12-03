@@ -89,15 +89,15 @@ window.addEventListener("load", function() {
         const missionTarget = doc.getElementById('missionTarget');
         missionTarget.innerHTML = `
                     <h2>Mission Destination</h2>
-                    <ol>
-                        <li>Name: ${name}</li>
-                        <li>Diameter: ${diameter} </li>
-                        <li>Star: ${star}</li>
-                        <li>Distance from Earth: ${distance} </li>
-                        <li>Number of Moons: ${moons} </li>
+                    <ol id='missionList'>
+                        <li><span>Name: ${name}</span></li>
+                        <li><span>Diameter: ${diameter} </span></li>
+                        <li><span>Star: ${star}</span></li>
+                        <li><span>Distance from Earth: ${distance} </span></li>
+                        <li><span>Number of Moons: ${moons} </span></li>
                     </ol>
                     <img src="${imageUrl}">
-        `
+        `;
     }
 
     // async function myFetch() {
