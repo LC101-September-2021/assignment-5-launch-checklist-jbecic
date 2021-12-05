@@ -89,9 +89,9 @@ window.addEventListener("load", function() {
         const missionTarget = doc.getElementById('missionTarget');
         missionTarget.innerHTML = `
                     <h2>Mission Destination</h2>
-                    <ol id='missionList'>
+                    <ol>
                         <li><span>Name: ${name}</span></li>
-                        <li><span>Diameter: ${diameter} </span></li>
+                        <li id='diameter'><span>Diameter: ${diameter} </span></li>
                         <li><span>Star: ${star}</span></li>
                         <li><span>Distance from Earth: ${distance} </span></li>
                         <li><span>Number of Moons: ${moons} </span></li>

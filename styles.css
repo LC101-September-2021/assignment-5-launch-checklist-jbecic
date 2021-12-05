@@ -51,12 +51,3 @@ button {
    height: 30px;
    margin: 10px 0;
 }
-
-#missionList {
-   text-align: left;
-}
-
-li span {
-   position: relative;
-   left: 300px;
-}
